@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navigation">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="contacts.html">Contacts</a>
+                    </li>
+                    <li>
+                        <a href="form.html">Get in Touch</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="side-content">
+            <div class="header">
+                <h1>Let's get in touch</h1>
+                <p>Fill your information and contacts so i could get in touch with you</p>
+            </div>
+            <div class="fillform">
+                <form  target="_blank" autocomplete="on" >
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="fname">Name</label>
+                            </td>
+                            <td>
+                                : 
+                            </td>
+                            <td>
+                                <input type="text" id="fname" name="fname" placeholder="Your Fullname">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="email">Email</label>
+                            </td>
+                            <td>
+                                : 
+                            </td>
+                            <td>
+                                <input type="email" id="mail" name="mail" placeholder="your.email@example.com">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="gender">Gender</label>
+                            </td>
+                            <td>
+                                : 
+                            </td>
+                            <td>
+                                <input type="radio" id="male" name="gender" value="male">
+                                <label for="male">Male</label><br>
+                                <input type="radio" id="female" name="gender" value="female">
+                                <label for="female">Female</label><br>
+                                <input type="radio" id="nope" name="gender" value="undefined">
+                                <label for="nope">Rather not define</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="dob">Date of birth</label>
+                            </td>
+                            <td>
+                                : 
+                            </td>
+                            <td>
+                                <input type="date" id="dob" name="dob">
+                            </td>                            
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="social">Social media</label>
+                            </td>
+                            <td>
+                                : 
+                            </td>
+                            <td>
+                                <input type="checkbox" id="instagram" name="social" value="instagram">
+                                <label for="instagram">Instagram</label><br>
+                                <input type="checkbox" id="facebook" name="social" value="facebook">
+                                <label for="facebook">Facebook</label><br>
+                                <input type="checkbox" id="twitter" name="social" value="twitter">
+                                <label for="twitter">Twitter</label>
+                            </td>
+                        </tr>
+                    </table>
+                    <input type="submit" value="Send">
+                    <input type="reset" value="I want to change my info">
+                </form>
+            </div>
+            <footer>
+                <h5>this is footer | 2020</h5>
+            </footer>
+        </div>
+
+    </div>
+</body>
+</html>
