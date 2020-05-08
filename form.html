@@ -10,18 +10,93 @@
 
 <body>
     <div class="tab">
-        <a href="index.html"><button class="tablinks">Home</button></a>
-        <a href="contacts.html"><button class="tablinks">Contacts</button></a>
-        <a href="form.html"><button class="tablinks">Get in Touch</button></a>
+        <a href="index.html"><button><b>Home</b></button></a>
+        <a href="contacts.html"><button><b>Contacts</b></button></a>
+        <a href="form.html"><button><b>Get in Touch</b></button></a>
     </div>
 
     <div class="content">
-        <h3>London</h3>
-        <p>London is the capital city of England.</p>
+        <div class="header"></div>
+        <h2>Lets get connected</h2>
+        <div class="line"></div>
+
+        <form action="index.html">
+            <table>
+                <tr>
+                    <td>
+                        <label for="fname">Name</label>
+                    </td>
+                    <td>
+                        :
+                    </td>
+                    <td>
+                        <input type="text" id="fname" name="fname" placeholder="Your Full Name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="mail">Email</label>
+                    </td>
+                    <td>
+                        :
+                    </td>
+                    <td>
+                        <input type="email" id="mail" name="mail" placeholder="Your Email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="gender">Gender</label>
+                    </td>
+                    <td>
+                        :
+                    </td>
+                    <td>
+                        <input type="radio" id="male" name="gender">Male<br>
+                        <input type="radio" id="female" name="gender">Female<br>
+                        <input type="radio" id="undefined" name="gender">Rather not define<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="hobby">Hobby</label>
+                    </td>
+                    <td>
+                        :
+                    </td>
+                    <td>
+                        <input type="checkbox" id="coding" name="hobby">Coding<br>
+                        <input type="checkbox" id="reading" name="hobby">Read Books<br>
+                        <input type="checkbox" id="sleeping" name="hobby">Sleeping<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="story">Tell me about yourself</label>
+                    </td>
+                    <td>
+                        :
+                    </td>
+                    <td>
+                        <textarea name="story" id="story" cols="30" rows="10"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Send">
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+
     </div>
 
     <footer>
-        ini footer | 2020
+        created by jihad kunnaji | 2020
     </footer>
 </body>
 
